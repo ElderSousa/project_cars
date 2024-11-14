@@ -12,6 +12,7 @@ class BrandAdmin(admin.ModelAdmin):
 
         verbose_name = 'Brands'
 
+
 admin.site.register(Brand, BrandAdmin)
 
 
@@ -25,5 +26,6 @@ class CarAdmin(admin.ModelAdmin):
     class Meta: 
 
         verbose_name = 'Cars'
+
 
 admin.site.register(Car, CarAdmin)
