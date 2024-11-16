@@ -24,6 +24,7 @@ class Brand(Base):
 
         ordering = ['name']
 
+
     def __str__(self):
         return self.name
 
@@ -42,6 +43,7 @@ class Car(Base):
     class Meta:
 
         ordering = ['model']
+
 
     def __str__(self):
         return self.model
